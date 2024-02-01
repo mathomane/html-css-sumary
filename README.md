@@ -4,7 +4,7 @@ HTML is designed to structure and bridge the content between the human computer 
 FUNCTION OF HTML
 It has 3 Web Core Languages:
 
-<HTML
+HTML
 * responsible for making up the content of the web.
 * has straightforward structure without logic programming logic, loops or functions.
 * it is simple to use, even if you misspelled elements, it would just guess what you were trying to say and run the page for you.
