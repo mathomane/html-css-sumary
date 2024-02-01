@@ -9,18 +9,18 @@ HTML
 * has straightforward structure without logic programming logic, loops or functions.
 * it is simple to use, even if you misspelled elements, it would just guess what you were trying to say and run the page for you.
   
-<CSS>
+CSS
 *	styling of the web
 *	responsible for how the web looks for example: colours, fonts and sizes.
 *	adding animations and interactions
   
-<JavaScript>
+JavaScript
   
 *	Allows one to create and add interactives stuff.
 *	It is behind the fancy and complex interface on the web.
 *	It is a bit fragile, unlike HTML when you misspelled an element it does not even try to figure out what you were trying to say. It won’t run the page.
   
-~TEXT FORMATNG & HTML SYNTAX~
+~TEXT FORMATNG & HTML SYNTAX
 
 It is used to structure websites
 It uses tags that are symbolized as greater than and less than to mark different elements. We have 2 types of tags e.g. open tag<> and close tag</> that can be differentiated by a forward slash for close tag.
@@ -33,6 +33,7 @@ For example: <h1> Welcome to the Jungle</h1> h1 is for the entire article of the
 For example: <h2> Law of the jungle, survival of the fittest</h2> The choice of headline level is based on its meaning.
 
 HTML Bold and Italics
+
 * it has four related elements, 2 for bold and another 2 for italics.
 Reasons for using italics in some scenarios is to make a string point and in some it is because the word emphasized is the title or the main topic.
 *<i> to apply visual italics.
@@ -46,6 +47,7 @@ The same as italics, there are also 2 elements used to emphasize or make somethi
      does not imply any alternative voice or words.
 
 HTML Lists
+
 HTML lists are divided into 3 categories: unordered list, ordered list, and definition list.
 * Ordered list: they are normally used for recipes and following steps.
 * For example: steps to follow when making banana bread.
