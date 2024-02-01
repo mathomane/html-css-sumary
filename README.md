@@ -26,8 +26,10 @@ JavaScript
 
 It is used to structure websites
 It uses tags that are symbolized as greater than and less than to mark different elements. We have 2 types of tags e.g. open tag<> and close tag</> that can be differentiated by a forward slash for close tag.
-Tags work together to define elements that are like packages containing content.
-~HTML HEADLINES~
+Tags work together to define elements that are like packages containing contentz
+
+HTML HEADLINES
+
 Webpages contains various headlines, titles and subheadings which are normally divided into small chunks. Elements used for marking up headlines are in 6 different types such as: h1, h2, h3, h4, h5, and h6. 
 *	Each headline has their own visual effect. Selecting the appropriate level is easy.
 For example: <h1> Welcome to the Jungle</h1> h1 is for the entire article of the article or web.
