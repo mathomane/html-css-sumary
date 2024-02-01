@@ -1,6 +1,8 @@
 # html-css-sumary
 What is HTML?
+
 HTML is designed to structure and bridge the content between the human computer languages it is also a channel used to serve different types of content such as: videos, audios, words, images, forms and interactive experience.
+
 FUNCTION OF HTML
 It has 3 Web Core Languages:
 
