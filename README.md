@@ -60,7 +60,22 @@ Definition list: they are not like <ul> or <ol>.
 * <dt> stands for defining term.
 * <dd> tag stands for description.
 * each term is marked with <dd> tag or element then the entire lost is wrapped with a <dt> tag..
+HTML Quotes
+HTML has different types of quotes such as: Using quotes and cite block elements, Using block quotes, and Using inline quotes.
 
+Using quotes and cite block:~<cite> and <block> serve semantic purpose.
+* informs other computers.
+* provide convenient way to apply custom styling.
+
+Using block quotes in context: elements should be nested with each other in a way that makes sense.
+* include any element within the block quote.
+* one can even put list or headlines.
+~ Using inline quotes: unlike block quotes, they appear within the texts.
+* use ~<q> element in HTML question.
+* Using ~<q> element makes browser autprovide appropriate quote mark.
+* comparing block quote element with ~"<q>" element is a good example for understanding HTML.
+* HTML elements like, "<strong>", "<b>", "<i>" and "<em>" are inline, they are meant to wrap around text phrases that are inline with each other content.
+* their purpose is similar with the "<q>" element.
 
 
 
