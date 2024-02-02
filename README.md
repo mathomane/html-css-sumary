@@ -83,6 +83,10 @@ Using block quotes in context: elements should be nested with each other in a wa
 * HTML elements like, "<strong>", "<b>", "<i>" and "<em>" are inline, they are meant to wrap around text phrases that are inline with each other content.
 * their purpose is similar with the "<q>" element.
 
+Using date elements a few time elements
+
+To specify the accurate date and time in a language that a computer can understand.
+* <time.datime=""><>
 
 
 
