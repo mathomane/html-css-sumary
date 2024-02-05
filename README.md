@@ -42,8 +42,11 @@ HTML Bold and Italics
 
 * it has four related elements, 2 for bold and another 2 for italics.
 Reasons for using italics in some scenarios is to make a string point and in some it is because the word emphasized is the title or the main topic.
+
+
 *`<i>` to apply visual italics.
 *`<em>` to emphasize
+
 *they appear the same but have different meanings.
 
 The same as italics, there are also 2 elements used to emphasize or make something BOLD in HTML.
