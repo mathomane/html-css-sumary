@@ -114,6 +114,13 @@ inspect has three sectons which are:
 3. More options on the right
 
 HTML Attributes
+
+HTML attributes add power to any element. There are four highly useful global attributes in HTMLthat work universaly. Class attributes is the most commonly used. It allows any elements which can be styled with the use of CSS for all lements that share the class.
+
+Class and ID attributes
+
+Known as on of the porpular attributes, similar to the class attribute. 
+
 * 
 
 * # How to use comments in HTML
@@ -122,7 +129,11 @@ According to programmers, they enhance code readability by adding comments that 
 
 For example, this is how a comment looks like in HTML:
 
-```html
-<!-- This is a comment -->
-<p>This is a paragraph</p>
+```html``
+`<!-- This is a comment -->
+<p>This is a paragraph</p>`
+
+"The HTML Upper- and Lowercase Debate:
+
+In the history of HTML, there was a shift from capitalizing all elements to using lowercase letters as the norm. Despite the evolution, browser support remains unaffected. Both old and new websites coexist with different letter case choices, showcasing that browsers handle it seamlessly. Although personal preferences vary, the contemporary practice leans towards using lowercase for better readability."
 
