@@ -15,9 +15,8 @@ CSS
 *	styling of the web
 *	responsible for how the web looks for example: colours, fonts and sizes.
 *	adding animations and interactions
-  nm
-JavaScript
   
+JavaScript
 *	Allows one to create and add interactives stuff.
 *	It is behind the fancy and complex interface on the web.
 *	It is a bit fragile, unlike HTML when you misspelled an element it does not even try to figure out what you were trying to say. It won’t run the page.
