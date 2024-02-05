@@ -138,7 +138,7 @@ The HTML Upper- and Lowercase Debate:
 In the history of HTML, there was a shift from capitalizing all elements to using lowercase letters as the norm. Despite the evolution, browser support remains unaffected. Both old and new websites coexist with different letter case choices, showcasing that browsers handle it seamlessly. Although personal preferences vary, the contemporary practice leans towards using lowercase for better readability.
 
 
-**Summary for GitHub README:**
+Summary for GitHub README:
 
 The Evolution of HTML Element Length:
 
