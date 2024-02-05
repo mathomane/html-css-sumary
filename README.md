@@ -130,10 +130,16 @@ According to programmers, they enhance code readability by adding comments that 
 For example, this is how a comment looks like in HTML:
 
 ```html``
-`<!-- This is a comment -->
-<p>This is a paragraph</p>`
+`<!-- This is a comment -->`
+`<p>This is a paragraph</p>`
 
-"The HTML Upper- and Lowercase Debate:
+The HTML Upper- and Lowercase Debate:
 
-In the history of HTML, there was a shift from capitalizing all elements to using lowercase letters as the norm. Despite the evolution, browser support remains unaffected. Both old and new websites coexist with different letter case choices, showcasing that browsers handle it seamlessly. Although personal preferences vary, the contemporary practice leans towards using lowercase for better readability."
+In the history of HTML, there was a shift from capitalizing all elements to using lowercase letters as the norm. Despite the evolution, browser support remains unaffected. Both old and new websites coexist with different letter case choices, showcasing that browsers handle it seamlessly. Although personal preferences vary, the contemporary practice leans towards using lowercase for better readability.
 
+
+**Summary for GitHub README:**
+
+The Evolution of HTML Element Length:
+
+HTML elements vary in length, with some like `<p>` or `<i>` being short, and others like ``<article>`` or ``<video>`` being longer. This difference originated from the early days of HTML when file size optimization was crucial due to limited computer resources. With advancements in technology and increased memory, the focus shifted to prioritizing code readability. Newer HTML elements now use complete words for better human understanding. Element length can serve as a clue to its historical timeline, indicating changes over time.
