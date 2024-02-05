@@ -87,3 +87,14 @@ Using date elements a few time elements
 
 To specify the accurate date and time in a language that a computer can understand.
 * <time.datime=""><>
+
+* # How to use comments in HTML
+
+According to programmers, they enhance code readability by adding comments that explain its purpose. In HTML, comments are inserted by typing `<!--` at the start and `-->` at the end. These comments are disregarded by the browser. Code editors such as Notepad++ can display commented code or remarks in a grayed-out fashion, which proves to be quite handy. This feature helps us quickly identify when code is commented out and prevents any confusion when it does not function as expected.
+
+For example, this is how a comment looks like in HTML:
+
+```html
+<!-- This is a comment -->
+<p>This is a paragraph</p>
+
