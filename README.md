@@ -44,8 +44,8 @@ HTML Bold and Italics
 Reasons for using italics in some scenarios is to make a string point and in some it is because the word emphasized is the title or the main topic.
 
 
-*`<i>` to apply visual italics.
-*`<em>` to emphasize
+* `<i>` to apply visual italics.
+* `<em>` to emphasize
 
 *they appear the same but have different meanings.
 
