@@ -93,7 +93,28 @@ Using block quotes in context: elements should be nested with each other in a wa
 Using date elements a few time elements
 
 To specify the accurate date and time in a language that a computer can understand.
-* `<time.datime="">``<>`
+* `<time.datime="2024-01-22"> January1,2022 </time>`.
+* it starts with a year 4 digits followed by the month 2 digits and lastly the day also 2 digits
+
+* on time elements,time is not necessary spelled ou on the website
+* it uses time phases like 2 hours ago or 11 minutes ago
+* but behind the scenes we still need to use a language that the computer understands.
+* the time macine referes 24 hours format which inclued seconds and fractions
+For example: 15:45, which means 3:45 PM it uses five hour behind the Greenwhich Mean Time
+
+# Capabilities
+
+Troubleshooting and Debuging
+
+Troubleshooting and debuging in HTML comes with accessing developer tools. to do so you will have to right click on the page that you're in, then select inspect.
+inspect has three sectons which are:
+
+1. HTML on the left
+2. CSS on the middle
+3. More options on the right
+
+HTML Attributes
+* 
 
 * # How to use comments in HTML
 
