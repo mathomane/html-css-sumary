@@ -25,16 +25,17 @@ JavaScript
 ~TEXT FORMATNG & HTML SYNTAX
 
 It is used to structure websites
-It uses tags that are symbolized as greater than and less than to mark different elements. We have 2 types of tags e.g. open tag<> and close tag</> that can be differentiated by a forward slash for close tag.
+It uses tags that are symbolized as greater than and less than to mark different elements. We have 2 types of tags e.g. open tag `<>` and close tag `</>` that can be differentiated by a forward slash for close tag.
 Tags work together to define elements that are like packages containing contentz
 
 HTML HEADLINES
 
-Webpages contains various headlines, titles and subheadings which are normally divided into small chunks. Elements used for marking up headlines are in 6 different types such as: h1, h2, h3, h4, h5, and h6. 
-*	Each headline has their own visual effect. Selecting the appropriate level is easy.
-For example: <h1> Welcome to the Jungle</h1> h1 is for the entire article of the article or web.
+Webpages contains various headlines, titles and subheadings which are normally divided into small chunks. Elements used for marking up headlines are in 6 different types such as: `h1`, `h2`, `h3`, `h4`, `h5`, and `h6`. 
+For example:
+
+`<h1>` Welcome to the Jungle `</h1>` h1 is for the entire article of the article or web.
 *	H2 is the subtitle that is usually smaller and longer than the main title.
-For example: <h2> Law of the jungle, survival of the fittest</h2> The choice of headline level is based on its meaning.
+For example: `<h2>` Law of the jungle, survival of the fittest `</h2>` The choice of headline level is based on its meaning.
 
 HTML Bold and Italics
 
@@ -55,21 +56,21 @@ HTML Lists
 HTML lists are divided into 3 categories: unordered list, ordered list, and definition list.
 * Ordered list: they are normally used for recipes and following steps.
 * For example: steps to follow when making banana bread.
-* they are identified with an <ol>element as each step I marked with<li> element.
+* they are identified with an `<ol>` element as each step I marked with `<li>` element.
 * Unordered list: they have no particular order
 * For example: giving a list of ingredients to buy for making banana bread.
-* they are identified with<ul>element,followed by each step marked with <li> element.
+* they are identified with `<ul>` element,followed by each step marked with `<li>` element.
 
-Definition list: they are not like <ul> or <ol>.
+Definition list: they are not like `<ul>` or `<ol>`.
 * normally used when creating list that rembles akey value pair in computer science.
 * instead of just items, first term then corresponding description.
 * <dt> stands for defining term.
 * <dd> tag stands for description.
-* each term is marked with <dd> tag or element then the entire lost is wrapped with a <dt> tag..
+* each term is marked with `<dd>` tag or element then the entire lost is wrapped with a `<dt>` tag..
 HTML Quotes
 HTML has different types of quotes such as: Using quotes and cite block elements, Using block quotes, and Using inline quotes.
 
-Using quotes and cite block:~<cite> and <block> serve semantic purpose.
+Using quotes and cite block: `<cite>` and `<block>` serve semantic purpose.
 * informs other computers.
 * provide convenient way to apply custom styling.
 
