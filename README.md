@@ -21,7 +21,7 @@ JavaScript
 *	It is behind the fancy and complex interface on the web.
 *	It is a bit fragile, unlike HTML when you misspelled an element it does not even try to figure out what you were trying to say. It won’t run the page.
   
-~TEXT FORMATNG & HTML SYNTAX
+# TEXT FORMATNG & HTML SYNTAX
 
 It is used to structure websites
 It uses tags that are symbolized as greater than and less than to mark different elements. We have 2 types of tags e.g. open tag `<>` and close tag `</>` that can be differentiated by a forward slash for close tag.
@@ -120,10 +120,45 @@ HTML attributes add power to any element. There are four highly useful global at
 Class and ID attributes
 
 Known as on of the porpular attributes, similar to the class attribute. 
+* they can be used for targeting CSS which can sometimes cause issues.
+* they come in handy when addresing specific elements in Javascript or targeted links.
+* its uniqueness ensures that there will always be one element with ID.
+* CLASS and ID attributes nprovide a way to name HTML elements and reference them in onother parts of code stack.
 
-* 
+ARIA ROLES
 
-* # How to use comments in HTML
+ARIA roles are exxtra attributs added ito HTML to make more meaningful and also assists the browser to understand what they representing.
+
+Web or online accessibility image
+
+ARIA Roles come in handy in providing essential information to assistive technologies like: screen readers, braille display, and magnifiers to ensure the website is fully accessible.
+It came about when web began replacing native applications. 
+
+Using the browser accessibility tree
+
+* it is like a companion DOM tree that the browsr create from the website content.
+* DOM tree represents the  structure of HTML
+* accessibility tree is known or desinged sor assistive devices like screen readers.
+* povides better experience to the user.
+* it can however results or lead to poor experince e.g. letter "hello" be read out loud individually. To improve all this one can use ARIA
+* aad aria label to HTML to specify the text that the screen reader will read.
+* set ARIA label to "hello wold"
+* hide individual letters by enclosing them with `<div>` element
+* set ARIA hiddeen attribute to true.
+
+~ Formatting HTML ~
+
+ Formating HTML includes:
+ 
+ 1. Working with extra spaces
+ 2. Working with comments
+ 3. Working with uper and lowercases
+ 4. Working with long and short elements
+ 5. Working with self- closing elements
+
+It has always been said in the beginning that HTML does not pay much attentions to spaces, tabs or line braeks, however now there are couple of exceptions.
+
+ ~ How to use comments in HTML ~
 
 According to programmers, they enhance code readability by adding comments that explain its purpose. In HTML, comments are inserted by typing `<!--` at the start and `-->` at the end. These comments are disregarded by the browser. Code editors such as Notepad++ can display commented code or remarks in a grayed-out fashion, which proves to be quite handy. This feature helps us quickly identify when code is commented out and prevents any confusion when it does not function as expected.
 
@@ -131,15 +166,36 @@ For example, this is how a comment looks like in HTML:
 
 ```html``
 `<!-- This is a comment -->`
-`<p>This is a paragraph</p>`
 
 The HTML Upper- and Lowercase Debate:
 
 In the history of HTML, there was a shift from capitalizing all elements to using lowercase letters as the norm. Despite the evolution, browser support remains unaffected. Both old and new websites coexist with different letter case choices, showcasing that browsers handle it seamlessly. Although personal preferences vary, the contemporary practice leans towards using lowercase for better readability.
 
-
-Summary for GitHub README:
-
 The Evolution of HTML Element Length:
 
 HTML elements vary in length, with some like `<p>` or `<i>` being short, and others like ``<article>`` or ``<video>`` being longer. This difference originated from the early days of HTML when file size optimization was crucial due to limited computer resources. With advancements in technology and increased memory, the focus shifted to prioritizing code readability. Newer HTML elements now use complete words for better human understanding. Element length can serve as a clue to its historical timeline, indicating changes over time.
+
+The Evolution of HTML Tag Formatting:
+
+In HTML, most elements have both opening and closing tags, while some older ones lacked closing tags initially. For instance, the `<img>` element in the 90s didn't require a closing tag. However, the practice evolved, and adding a slash at the end became standard to self-close elements. Although this convention persisted for years, around 2010, its importance waned as browsers adapted to various formatting styles. Ultimately, the choice of including the closing slash is left to the developer's discretion.
+
+# HTML Navigation and Linking
+
+Working with Links:
+  - Use the A element (anchor) to create links.
+  - Add an href attribute with a URL enclosed in quotes.
+  - "href" stands for Hypertext Reference.
+- Linking Text and Images:
+  - Place text or images between the opening and closing A tags to make them clickable.
+- Link Placement:
+  - A element is inline and can be used within paragraphs or other text.
+- Versatility of URLs:
+  - URLs can be simple (e.g., HTTPS://example.com) or more complex.
+  - Absolute URLs point to precise locations on the web.
+  - Include HTTP or HTTPS, standing for Hypertext Transport Protocol, in absolute URLs.
+- HTTPS for Security:
+  - HTTPS indicates a secure connection.
+  - Experts recommend using HTTPS for enhanced security.
+  - Modern browsers automatically add HTTPS:// when typing a URL.
+
+
