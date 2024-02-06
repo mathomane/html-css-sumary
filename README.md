@@ -182,20 +182,31 @@ In HTML, most elements have both opening and closing tags, while some older ones
 # HTML Navigation and Linking
 
 Working with Links:
-  - Use the A element (anchor) to create links.
-  - Add an href attribute with a URL enclosed in quotes.
-  - "href" stands for Hypertext Reference.
-- Linking Text and Images:
-  - Place text or images between the opening and closing A tags to make them clickable.
-- Link Placement:
-  - A element is inline and can be used within paragraphs or other text.
-- Versatility of URLs:
-  - URLs can be simple (e.g., HTTPS://example.com) or more complex.
-  - Absolute URLs point to precise locations on the web.
-  - Include HTTP or HTTPS, standing for Hypertext Transport Protocol, in absolute URLs.
-- HTTPS for Security:
-  - HTTPS indicates a secure connection.
-  - Experts recommend using HTTPS for enhanced security.
-  - Modern browsers automatically add HTTPS:// when typing a URL.
+  * Use the A element (anchor) to create links.
+  * Add an href attribute with a URL enclosed in quotes.
+  * "href" stands for Hypertext Reference.
+* Linking Text and Images:
+  * Place text or images between the opening and closing A tags to make them clickable.
+* Link Placement:
+  * A element is inline and can be used within paragraphs or other text.
+* Versatility of URLs:
+  * URLs can be simple (e.g., HTTPS://example.com) or more complex.
+  * Absolute URLs point to precise locations on the web.
+  * Include HTTP or HTTPS, standing for Hypertext Transport Protocol, in absolute URLs.
+* HTTPS for Security:
+  * HTTPS indicates a secure connection.
+  * Experts recommend using HTTPS for enhanced security.
+  * Modern browsers automatically add HTTPS:// when typing a URL.
 
+HTML URL Pathway
+
+* Absolute vs. Relative URLs:
+  * Absolute URLs point to specific web locations.
+  * Relative URLs are used for links within the same site/domain.
+* Context of Usage:
+  * Example scenario: developing a website locally before deployment.
+  * Avoiding issues with absolute URLs trying to access the live site during development.
+* Importance of Relative URLs:
+  * Allow links to adapt to different environments (e.g., local development, testing servers).
+  * Useful for referencing various file types, not just for linking with the A element.
 
