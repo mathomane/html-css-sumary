@@ -209,6 +209,75 @@ HTML URL Pathway
 * Importance of Relative URLs:
   * Allow links to adapt to different environments (e.g., local development, testing servers).
   * Useful for referencing various file types, not just for linking with the A element.
+ 
+# HTML Workinh with Graphics and Images
+Adding an image to webpage, we use image element that is written as `<img>`.
+Addding an image includes four attributes 
+1. source attribute (src)-> it tells the browser which image file to upload.
+2. alt attribute (alt)-> provides txt description of image.
+3. width and height attribute-> determine the size.
+
+in HTML it does not matter wether the height or the width is specified first, the order of the attribute can be whatever you prefer.
+
+IMAGE FORMATS
+
+There are four main image fomarts used on the web which are:
+1. GIF
+   * good for compressing illustrations that have larger areas of the same color.
+   * if falls short when it comes to photographs.
+   * it only supports 256 colors with the images looking pixaleted
+
+2. SVG
+   * perfect fo logos, icons and other type of illustrators.
+   * vector file that contains instructions to drawing.
+   * can be scaled to any size without losing quality.
+   * programming laguage for graphics
+   * can be exported
+
+3. JPG
+   * popular choice for compressing photographs
+   * half compessed JPG can slow down the speed of loading in a web
+     
+4. PNG
+  * works well when needing tranparency in photographs
+  * outperforms GIF and JPG
+
+RESPONSIVE IMAGES
+With HTML we can deliver different image files to screens of different size. Wecan also create multiple image files and include them as option in HTML code.
+
+# WORKING WITH MEDIA
+
+* audio element is idifferernt from the image element, it has bothe openimg and closing tag
+* has more power and flexibility
+* there is an option to create your own control using JS and HTML media element API
+* loops can also be used as media element, it will make the audio repeat from the start till the finish
+* autoplay can aotomatically play audio as soon as the page loads
+* MP3 are supported in modern browsers
+
+WORKING WITH VIDEO
+
+* Like audio element, video element also has opening and closing tag
+* to display video, we use the source attribute to specify video file
+* there are different codes that can be used to encide video files
+* internet videos use a mechanism to cmpress all the adte into a small package.
+
+WOKING WITH SUBTITLES AND CAPTIONS
+  Working with video element and track element
+* track element adds functionality to video players
+* allows viewers to togglecaption on and off
+* to display caption, insert track element within the video element
+* use the source attribute to specify the file
+
+EMBEDDING MEDIA VIA IFRAMES
+
+Embedding refers to taking content from one site and placing it within the middle of another site's page.
+  
+
+
+
+
+
+
 
 
 
