@@ -325,7 +325,6 @@ Most languages flow from left to right horizontally but some flow from right to 
 
 * Utilization of Global Attributes:
   * Both div and span elements can utilize various global attributes like class, id, lang, and aria roles.
-
 * Div and Span Usage:
   * They serve as last resort options when there isn't a suitable semantic element.
   * Exercise caution and use them wisely when no other alternative exists.
@@ -334,10 +333,8 @@ Most languages flow from left to right horizontally but some flow from right to 
 
 Importance of HTML in Web Development:
   * HTML plays a crucial role in marking up content on websites and web applications.
-
 * Functionality of HTML Files:
   * HTML files are vital components of the web ecosystem.
-
 * Website Access:
   * Visiting a website involves opening a web browser or web view and entering a URL.
   * The URL triggers the web server to respond by sending back the specific HTML file located at that address.
@@ -346,11 +343,9 @@ Standard HTML Page
 
   * In the past, everything needed for webpage display was in a single HTML file.
   * Presently, text is often stored in databases, and various files are combined in real-time for customization.
-
 * File Distribution:
   * Visual styling resides in CSS files, JavaScript in separate files, and media content in respective files.
   * Multiple static files, including images, video, audio, and ads, contribute to webpage composition.
-
 * User Interaction:
   * Users initiate webpage access by visiting a URL, prompting a request for an HTML file.
   * The server responds by returning a single HTML file, which the browser reads and executes.
