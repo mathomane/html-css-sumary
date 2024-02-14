@@ -271,6 +271,27 @@ WOKING WITH SUBTITLES AND CAPTIONS
 EMBEDDING MEDIA VIA IFRAMES
 
 Embedding refers to taking content from one site and placing it within the middle of another site's page.
+
+WORKING WITH IFRAMES ELEMENT
+
+Using content managemnt system (CMS) that has been set up by oter elements, you may not be able to copy and paste random embed codes from other websites.
+CMS has a spcific way to allow URLS OR SHOTCODE FROM TRUSTED SOURCES
+Security aspects elated to iframe elements should be considered when building website.
+
+# HTML CONTENT IDENTIFICATION
+
+HTML Lanuage Support
+
+HTML has tool to indentify the language of your website. Search engines will understand which language
+the website is in and also the spellcheckers will provide appropriate dictionaries.
+
+The lang Attribute
+Lang attribute is udes to specify the language of a website. If the whole website is in one language, it is quite simple.
+To specify this you can use "en-US" in the land attribute which means U.S English. There is also "en-GB" for English in Great Britain.
+It is also important to specify on the cintent direction.
+Most languages flow from left to right horizontally but some flow from right to left.
+
+
   
 
 
