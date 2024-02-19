@@ -350,8 +350,49 @@ Standard HTML Page
   * Users initiate webpage access by visiting a URL, prompting a request for an HTML file.
   * The server responds by returning a single HTML file, which the browser reads and executes.
 
-  
+Document Head
+That is where you put all important information that the browser nees to know about the page or entire website.
+Charset is not for users to see, but for the browser.
+To convey this we use the meta element
+Ensure that the meta elements are placed inside the head as they provide metadata for about the website or page.
 
+HTML File Head Section
+
+Webpage title is what appears on the browser tab when it is saved.
+Also the name that appears under top sites when a new browser is opened
+
+Meta Tag
+Inform the browser that the layout has been adjusted to fit small screen, to making it a responsive website.
+Without meta tag, the browser assumes the page follows an older layout
+
+Content Structuring
+
+1. Main
+   * Tells the browser where the main content is located
+2. Header
+   * Mark the header and footer aeas on the page
+   * It is where the files metadata lives and not display to users
+   * Usually found at the top of most webpages and may also include logo, name and navigation bar
+3. Footer
+   * Signifiers that ther are extra things to convey, regardless of it's position on the page
+4. Article
+   * Starts with the title, subtitle, authors name and ublication date.
+   * Wraps aroundany type of content unit, whether it is a long written article
+5. Section
+   * Used to mark sections of content
+   * Useful for dividing different topics zones on a website.
+6. Aside
+   * Content the is off to the side, like sidebar information or additional information.
+   * Advertisements can also be marked as an aside.
+
+# Working with Forms and Interactive Elements
+Form Fundamentals
+
+Web Form Fields Importance:
+* Essential for logging, purchasing, searching, and content addition.
+* Semantic form elements in HTML leverage browser's built-in power.
+* Avoids wasting time and effort on re-creating existing functionalities.
+* Ensures compatibility with all devices and input/output hardware.
 
 
 
