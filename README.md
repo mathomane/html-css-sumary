@@ -394,6 +394,107 @@ Web Form Fields Importance:
 * Avoids wasting time and effort on re-creating existing functionalities.
 * Ensures compatibility with all devices and input/output hardware.
 
+# WHAT IS CSS?
+CSS is a file that holds all the styles for a website. It also holds visual appeal to the website.
+CSS hastwo parts such as:
+1. The selector
+2. The delaration block
+
+Selector specifies HMTL partten and it matches. The styles within the declaraton block are applied to the corresponding HTML elements.
+In CSS each style declaration consists of two parts:
+1. Property
+2. Value
+
+**CSS SELECTORS**
+The parttens CSS uses to taget and apply to specific elements within an HTML document. They allow you to define rules for how different elements should be displayed on a web page.
+Common types of selectors:
+1. Element selector
+   Matches all element within the same tag name. For example:
+   `p{color: red;}`
+   This will set the text color of all paragraphs element to red.
+2. Class selector
+   Matches elements that have the same class attribute value. For example:
+   `.red{color: blue;}`
+   This rule applies a blue color class= "blue"
+3. ID selector
+   Matches the elements with the same ID attibute value. For example:
+   `#main{font-weight:bold;}`
+  This rule makes the elel=ment with id= "main" bold.
+
+**Writing Your First Comment and Element**
+Formating colors in css
+
+Hex values have six digits
+they consits of numbers from zero to nine and letters from A to F
+the fisrt two letters represent red, next two epresent green, then the final two is blue.
+the digits corresponds to numbers ranging from 0 to 255
+color name and hex values are the mostly commonly used methods fo woking with colors in the web.
+
+RGB Syntax
+rgb colors are written out using base 10 numbers to specify Red,Green,Blue channels
+the format can also be represented as an 8 dits hex number
+the last number 0.8 in RGB valuen correspinds to Alpha
+it relates to opacity and transparency of color
+
+Understanding Images in CSS
+
+1. GIF
+   Has limited colors but could include transparency and animation
+2. PNG
+   Has more colorsand transparency but no animation, it is alos suitable for illustartions like logos or cartoons
+3. JPEG
+   Joint Photographic Experts Group, optimized for photographs, surppoted millions of colors but lacked transparency and animation
+
+WebP Formats
+can be used for any image type, it offers high compession for smaller sizes. Savind an image as GIF results in color loss and potentially larger file sizes. tinypng.com and Adobe can also ve used to reduce image sizes.
+
+**Understanding Types in CSS**
+Font Types
+
+Usually there are two types of  fonts designers categorize
+1. Serif
+   have small lines at the end of the letters called serif.
+   they were used for printed materials with long text blocks.
+   serifs help connect the letters, making the text easier to read
+2. Sans Serif
+   they have a morden appearence
+   they are mainly used on the web for extended text becaus they look cclean and are easy to read
+
+Web Fonts
+web fints are more complicated thsn print fonts. They depend on where the fonts come from. If your  looking for a differrent font, the option is Google Fonts.
+Google provides wide selection of more than thousand fonts that can be added to any website. The fonts are sourced from the internet and loaded into web browser. This is to ensure that they dispaly on web page even if the user does not have them installed on their device.
+
+**Understanding and Applying size in CSS**
+Font measurement and sizes
+
+Absolute vs Relative
+* Points
+* Pixels
+* Dont change with screen size
+
+Relative
+* Percentage
+* Rems- adujust bade on the page size
+* Change with screen size
+
+Font Size Conversion
+* 1 rem= 16px
+* 1.5 rem 16px= 24px
+* 0.8 rem 16px= 13px
+
+Understanding the Box Model in CSS
+Explanation of different parts
+
+The box model allows us to add elements and define space between elements
+1. Content- it is where the images and the text appear
+2. Padding- clears an area around the content and padding and it is transparent
+3. Border- goes arround the content and padding
+4. Margin- clears an area outside the boder and the margin is transparent
+
+
+
+
+
 
 
 
